@@ -31,7 +31,7 @@ function printFamousPerson(name, result) {
   for (let i = 0; i < result.length; i++) {
     let birthDate = new Date(result[i].birthdate);
     let formattedDate = birthDate.getFullYear() + "-" + (birthDate.getMonth()+1) + "-" + birthDate.getDate();
-    console.log('- ' + result[i].id + ': ' + result[i].first_name + ' ' + result[i].last_name + ', born ' + formattedDate + birthDate);
+    console.log('- ' + result[i].id + ': ' + result[i].first_name + ' ' + result[i].last_name + ', born ' + formattedDate + birthdate);
   }
 }
 
